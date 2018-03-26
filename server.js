@@ -4,8 +4,8 @@ var fs = require('fs');
 var socket = io.connect('http://localhost:3007', {reconnect: true})
 const app = express();
 
-socket.on('connect', function (socket) {
-    console.log(`connected: ${socket.id}`);
+socket.on('connect', function () {
+    console.log(`connected`);
 })
 
 socket.on('update', readObj => {
