@@ -2,10 +2,10 @@
   "name": "code-live-student",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node lib/index.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,10 @@
   },
   "author": "",
   "license": "ISC",
+  "bin": {
+    "sync": "./bin/global.js"
+  },
+  "preferGlobal": true,
   "bugs": {
     "url": "https://github.com/DevMountain/code-live-student/issues"
   },
