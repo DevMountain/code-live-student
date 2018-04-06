@@ -1,7 +1,7 @@
 {
   "name": "code-live-student",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tool that allows live syncing from an instructor's code project. Must be paired with code-live-instructor.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,9 +12,19 @@
     "url": "git+https://github.com/DevMountain/code-live-student.git"
   },
   "author": "",
+  "contributors": [
+    {
+      "name": "Joe Blank",
+      "url": "https://github.com/joeblank"
+    },
+    {
+      "name": "Missy Beutler",
+      "url": "https://github.com/missyjeanbeutler"
+    }
+  ],
   "license": "ISC",
   "bin": {
-    "sync": "./bin/global.js"
+    "code-live": "./bin/global.js"
   },
   "preferGlobal": true,
   "bugs": {
