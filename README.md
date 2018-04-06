@@ -20,6 +20,8 @@ code-live [ip address of instructor]
 
 ```
 
+You will need to receive the ip address from the instructor and use it as an argument in the command line.
+
 The code-live server will start running in the background on port 5000 and will receive any changes that were made by the instructor. 
 
 When your code-live server connects to the instructor's code-live server, it will notify you in the terminal of the connection by printing to the terminal `code-live is connected`.
