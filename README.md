@@ -3,6 +3,8 @@ code-live is a tool used to help instructors sync their code live with their stu
 
 code-live will run a server in the background that listens for any changes that the instructor saved to their code. When changes occur, it will implement those changes.
 
+This package only works when paired with `code-live-instructor`.
+
 ## Installation
 Using npm:
 
