@@ -1,4 +1,4 @@
-# code-live - student
+# code-live-student
 code-live is a tool used to help instructors sync their code live with their students. The student can then use those files being synced to compare against their own code to help prevent bugs/errors.
 
 code-live will run a server in the background that listens for any changes that the instructor saved to their code. When changes occur, it will implement those changes.
